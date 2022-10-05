@@ -724,12 +724,12 @@ input[type=text], input[type=password] {
 .footer__conteiner::after {
    content: '';
    display: block;
-   width: 1167px;
+   width: 1000px;
    height: 2px;
    background-color: #fff;
    position: absolute;
    top: 85%;
-   left: 23%;
+   left: 25%;
    z-index: 5;
 }
 .footer__copy-text {
@@ -772,7 +772,7 @@ input[type=text], input[type=password] {
    font-size: clamp(0.875rem, 0.557rem + 1.59vw, 1.75rem);
    line-height: clamp(0.875rem, 0.33rem + 2.73vw, 2.375rem);
    color: #232233;
-97}
+}
 .footer__column {
    display: flex;
    padding: clamp(3.125rem, -1.42rem + 22.73vw, 15.625rem);
